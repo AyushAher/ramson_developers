@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <form method="post">
+        <input type="button" value="Send Email" onclick="sendEmail()" />
+    </form>
+    <script type="text/javascript">
+        function sendEmail() {
+            Email.send({
+                // Host: "smtp.elasticemail.com",
+                SecureToken : "6289dade-277b-4d05-9810-007ed6a04ceb",
+                // Username:"ayushaher118@gmail.com",
+                // Password:"67DFC0E43BB766312590A1E0C5B49766859E",
+                To: 'info@ramson.co.in',
+                From: "ayushaher118@gmail.com",
+                Subject: "This is the subject",
+                Body: "And it works"
+            }).then(
+                message => alert(message)
+            ); 
+        }
+
+    </script>
+</body>
+
+</html>
+
+
+
+<!--
+    to do list:-
+     1. need to work on server
+     2. how to add data to it
+
+-->
