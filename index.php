@@ -217,7 +217,7 @@
     <h2 class="ab">Want to Conatct Me???</h2>
     <p class="hjh">
       Name: Ayush Uddhav Aher <br />
-      E-mail: ayushaher118@gmail.com <br />
+      E-mail: developers.ramson@gmail.com <br />
     </p>
     <p class="iji">
       Phone: +91-8689952904 <br />
