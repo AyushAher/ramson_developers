@@ -96,18 +96,17 @@
         </div>
         <div class="col-md arti">
           <p class="container">
-            Hello! I am Ayush Aher, a young programmer, I know about web
-            development and web designing. It's a small-scale startup in which I
-            want to make my client's business more productive and to help them
+            Hello! we are Ramson Developers, We know about web
+            development and web designing. It's a small-scale startup in which we
+            want to make our client's business more productive and to help them
             to make their new identity through my developed website, stores,
-            etc. I might be a little young for this but I have some experience
-            in the real-life requirements of our sincere clients. <br /><br />
+            etc. We have Experice in developing Websites, Android Apps and Web Apps <br /><br />
 
-            Nowadays a website is a compulsory item as a business identity.
+            Nowadays a website is a Essential as a business identity.
             People in day-to-day life are evolving they require to do everything
             just by simply sitting back at home. To acquire their requirements
-            we need to go online.Most people can't find a way to sell their
-            products or their services properly so we help them to make their
+            we need to go online. We help people who can't find a way to sell their
+            products or their services properly by makeing their
             identity on the internet. <br /><br />
 
             Some people use websites to maintain their portfolio, which improves
