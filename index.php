@@ -68,7 +68,7 @@
 
     <div class="row">
       <div class="col-md-3">
-        <img src="img/DSC_0586.jpg" style="height:300px; margin-top:-100px;" alt="" class="me show-on-scroll" />
+        <img src="img/DSC_0586.jpg" style="height:300px; margin-top:-50px;" alt="" class="me show-on-scroll" />
 
         <!-- <img src="/img/about us section.png" class="img-fluid w"> -->
       </div>
