@@ -67,12 +67,12 @@
     <h2 class="ab">About Us</h2>
 
     <div class="row">
-      <div class="col-md">
+      <div class="col-md-3">
         <img src="img/DSC_0586.jpg" alt="" class="me show-on-scroll" />
 
         <!-- <img src="/img/about us section.png" class="img-fluid w"> -->
       </div>
-      <div class="col-md arti">
+      <div class="col-md-9 arti">
         <p class="container">
           Hello! we are Ramson Developers, We know about web
           development and web designing. It's a small-scale startup in which we
@@ -132,6 +132,29 @@
 
               <div class="col-md">
                 <h5 class="card-title po">Dynamic Website Development</h5>
+              </div>
+            </div>
+
+            <p class="card-text">
+              We build dynamic websites that empower you and your business.
+              Using advanced programming languages, our skilled team of
+              dynamic website designers & developers create customizable
+              website interfaces.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md">
+                <img src="img/dynamic-cms.svg" class="img-fluid io" alt="" />
+              </div>
+
+              <div class="col-md">
+                <h5 class="card-title po">Android App Development</h5>
               </div>
             </div>
 
