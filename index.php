@@ -68,7 +68,7 @@
 
     <div class="row">
       <div class="col-md-3">
-        <img src="img/DSC_0586.jpg" style="height:300px;" alt="" class="me show-on-scroll" />
+        <img src="img/DSC_0586.jpg" style="height:300px; margin-top:-100px;" alt="" class="me show-on-scroll" />
 
         <!-- <img src="/img/about us section.png" class="img-fluid w"> -->
       </div>
@@ -82,7 +82,7 @@
       </div>
     </div>
     <div class="arti">
-      <p class="container">
+      <p class="container" style="margin-top:30px;">
         Nowadays a website is a Essential as a business identity.
         People in day-to-day life are evolving they require to do everything
         just by simply sitting back at home. To acquire their requirements
