@@ -160,7 +160,7 @@ body{
         margin-top: 19px ;
     }
     .me{
-        margin-top: 100px;
+        margin-top: 70px;
     }
     #googleMap{
         width: 100%;
@@ -210,8 +210,4 @@ body{
         width: 100%;
         height: 300px;
     }
-}
-
-.fade{
-    /* opacity: 0; */
 }
