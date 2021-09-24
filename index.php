@@ -150,29 +150,6 @@
           <div class="card-body">
             <div class="row">
               <div class="col-md">
-                <img src="img/dynamic-cms.svg" class="img-fluid io" alt="" />
-              </div>
-
-              <div class="col-md">
-                <h5 class="card-title po">Android App Development</h5>
-              </div>
-            </div>
-
-            <p class="card-text">
-              We build dynamic websites that empower you and your business.
-              Using advanced programming languages, our skilled team of
-              dynamic website designers & developers create customizable
-              website interfaces.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-md">
                 <img src="img/wordpress-developmnet.svg" class="io" alt="" />
               </div>
 
