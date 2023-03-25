@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="index.css" />
+
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon" />
+
+  <script src="https://kit.fontawesome.com/fe664e1ddd.js" crossorigin="anonymous"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="index.js"></script>
+
+  <title>Ramson Developers</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Ramson Developers</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#enquiry">Enquiry</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home" class="container-fluid">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banner.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="line" />
+
+  <div class="container" id="about">
+    <h2 class="ab">About Us</h2>
+
+    <div class="row">
+      <div class="col-md">
+        <img src="img/DSC_0586.jpg" alt="" class="me show-on-scroll" />
+
+        <!-- <img src="/img/about us section.png" class="img-fluid w"> -->
+      </div>
+      <div class="col-md arti">
+        <p class="container">
+          Hello! I am Ayush Aher, a young programmer, I know about web
+          development and web designing. It's a small-scale startup in which I
+          want to make my client's business more productive and to help them
+          to make their new identity through my developed website, stores,
+          etc. I might be a little young for this but I have some experience
+          in the real-life requirements of our sincere clients. <br /><br />
+
+          Nowadays a website is a compulsory item as a business identity.
+          People in day-to-day life are evolving they require to do everything
+          just by simply sitting back at home. To acquire their requirements
+          we need to go online.Most people can't find a way to sell their
+          products or their services properly so we help them to make their
+          identity on the internet. <br /><br />
+
+          Some people use websites to maintain their portfolio, which improves
+          the impression on people. We are honored to help new entrepreneurs
+          to establish their empire through the medium of the internet.
+        </p>
+      </div>
+    </div>
+  </div>
+  <hr class="line" />
+  <div class="container services" id="services">
+    <h2 class="ab">Our Services</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md">
+                <img src="img/static-website-development.svg" class="io" alt="" />
+              </div>
+
+              <div class="col-md">
+                <h5 class="card-title po">Static Website Development</h5>
+              </div>
+            </div>
+            <p class="card-text">
+              we design and develop a wide variety of static website app
+              solutions that are easy to use, SEO friendly, and assist you to
+              build an online identity for your goods and services.
+            </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md">
+                <img src="img/dynamic-cms.svg" class="img-fluid io" alt="" />
+              </div>
+
+              <div class="col-md">
+                <h5 class="card-title po">Dynamic Website Development</h5>
+              </div>
+            </div>
+
+            <p class="card-text">
+              We build dynamic websites that empower you and your business.
+              Using advanced programming languages, our skilled team of
+              dynamic website designers & developers create customizable
+              website interfaces.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md">
+                <img src="img/wordpress-developmnet.svg" class="io" alt="" />
+              </div>
+
+              <div class="col-md">
+                <h5 class="card-title po">Wordpress web Development</h5>
+              </div>
+            </div>
+            <p class="card-text">
+              Having several years of experience in providing fascinating
+              WordPress solutions, we offer custom WordPress development to
+              WordPress website development, and theme customization that
+              drives high user-engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md">
+                <img src="img/ecommerce-store.svg" alt="" class="io" />
+              </div>
+              <div class="col-md">
+                <h5 class="card-title po">eCommerce Store Development</h5>
+              </div>
+            </div>
+
+            <p class="card-text">
+              Running an eCommerce store is definitely not an easy task, so we
+              build a solid eCommerce portal that contains all essential
+              features to simplify the process. We serve your needs by
+              creating a customized solution to engage real users.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="container enq" id="enquiry">
+    <h2 class="ab dfdf">Let's Have Some Chit-Chat</h2>
+    <div class="formsk">
+      <form action="#" method="post" onsubmit="return check();" id="enq-for" role="form" class="form">
+        <input type="text" name="name" id="name" placeholder="   Whats ur Name?" class="kk" required />
+        <input type="email" name="email" id="email" placeholder="   Whats ur Email?" class="kk" required /><br /><br />
+        <input type="text" name="company" id="company" placeholder="   Whats u r comapny name?" class="kk" required />
+        <input type="tel" name="phone" id="phone" placeholder="   Whats ur Phone Number??" class="kk"
+          required /><br /><br />
+        <input type="text" name="bugget" id="bugget" placeholder="   Whats ur Budget??" class="kk" required />
+        <input type="text" name="desc" id="desc" placeholder="   So, whats ur plan to do ??" class="kk"
+          required /><br /><br />
+        <!-- <input type="submit" class="btn btn-outline-light uu" onclick="sendEmail(event)" value="Submit"> -->
+        <!-- <div class="text-center"> -->
+        <button type="submit" class="btn btn-outline-light uu" onclick="sendEmail(event)">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+  <hr class="line" />
+
+  <div id="contact" class="contact">
+    <h2 class="ab">Want to Conatct Me???</h2>
+    <p class="hjh">
+      Name: Ayush Uddhav Aher <br />
+      E-mail: ayushaher118@gmail.com <br />
+    </p>
+    <p class="iji">
+      Phone: +91-8689952904 <br />
+      Add: A-306, Prime Elegance, Talegaon Dabhade, Pune. Pin: 410-507
+    </p>
+  </div>
+  <div class="footer sticky-bottom" id="footer">
+    Copyright © 2021 Ramson Developers
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script>
+    function sendEmail(event) {
+      event.preventDefault();
+      Email.send({
+        SecureToken: "6289dade-277b-4d05-9810-007ed6a04ceb",
+        To: "developers.ramson@gmail.com",
+        From: document.getElementById("email").value,
+        Subject: `New Enquiry  from ${document.getElementById("email").value
+          }`,
+
+        Body: `<p><b>Name: </b>${document.getElementById("name").value}\n</p>
+            <p><b>Email: </b>${document.getElementById("email").value}\n</p>
+            <p> <b>Phone: </b>${document.getElementById("phone").value}\n</p>
+            <p> <b>Bugget: </b>${document.getElementById("bugget").value}\n</p>
+            <p> <b>Description: </b>${document.getElementById("desc").value
+          }\n</p>
+            `,
+      }).then(function (response) {
+        if (response == "OK") {
+          alert("Enquiry sent succeessfully. We will contact you shortly");
+
+        } else {
+          throw new Error("Error: " + response.statusText);
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
